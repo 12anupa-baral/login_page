@@ -19,15 +19,15 @@ class MyApp extends StatelessWidget {
         body:Stack(
           children :[
             Container (
-            child: Image.network('https://1.bp.blogspot.com/-LcGN3xoah_A/XqnpCGuABRI/AAAAAAAAD3E/I08aFAPk6zYLvKMl5tqDwZItHEbBbNJOwCLcBGAsYHQ/s1600/New%2BCollection%2BHD%2BWallpaper%2Bfor%2BiPhone%2B%252820%2529.JPG', fit: BoxFit.cover),
+            child: Image.network('https://wallpapertag.com/wallpaper/full/a/4/b/321876-good-backgrounds-1920x1200-for-hd-1080p.jpg', fit: BoxFit.cover),
         
        
             ),
             Container(
-              padding:EdgeInsets.only(left:35 ,top :130),
+              padding:EdgeInsets.only(left:35 ,top :250),
               child:Text(
-                'Welcome\nAnupa',
-              style:  TextStyle(color:Colors.white ,fontSize:30),
+                'Welcome Anupa',
+              style:  TextStyle(color:Colors.black ,fontSize:25),
                
               ),         
             
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
                 padding:EdgeInsets.only(
                 left:35,
                 right:35,
-                  top:400,
+                  top:300,
                 ),
                 child:Column(
                 children:[
@@ -66,6 +66,7 @@ class MyApp extends StatelessWidget {
                   hintText:'Password',
                   border:OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10))
+                  
                 )
                 ),
 
@@ -76,7 +77,8 @@ class MyApp extends StatelessWidget {
     
                     ),
                     onPressed: () {},
-                    child: Text('Log In', style:  TextStyle(color:Colors.white ,fontSize:20),),
+                    child: Text('Log In', style:  TextStyle(color:Colors.
+                    black ,fontSize:20),),
                   )
                                           
                 ]                  
